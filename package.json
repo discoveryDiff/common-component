@@ -1,0 +1,47 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test webpack react eslint typescript",
+  "main": "index.js",
+  "author": "mengyue",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx webpack  --mode development --config ./webpack.client.config.js",
+    "server": "npm start && npx webpack --mode development --config ./webpack.server.config.js",
+    "build:client": "npx webpack  --mode production --config ./webpack.client.config.js",
+    "build:server": "npx webpack  --mode production --config ./webpack.server.config.js",
+    "lint": "eslint src/**/*.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.27.1",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "clsx": "^1.1.1",
+    "css-loader": "^6.5.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack-merge": "^5.8.0"
+  }
+}

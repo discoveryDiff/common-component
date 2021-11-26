@@ -1,0 +1,47 @@
+{
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "compilerOptions":{
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "preserve",
+    "declaration": true,
+    "sourceMap": true,
+    "outFile": "./",
+    "outDir": "./",
+    "rootDir": "./",
+    "removeComments": true,
+    "noEmit": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {},
+    "rootDirs": [],
+    "typeRoots": [],
+    "types": ["react","node"],
+    "allowSyntheticDefaultImports": true,
+
+    "sourceRoot": "./",
+    "mapRoot": "./",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
